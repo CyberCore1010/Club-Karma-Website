@@ -477,7 +477,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #E6EEF7;
   border: 1px solid #dee2e6;
   border-radius: 0.2rem;
   max-width: 100%;
@@ -2177,7 +2177,7 @@ pre code {
 
 .form-control:focus {
   color: #495057;
-  background-color: #fff;
+  background-color: #E6EEF7;
   border-color: #ffa1b4;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(255, 33, 79, 0.25);
