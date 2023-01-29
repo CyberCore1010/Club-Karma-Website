@@ -5069,6 +5069,13 @@ input[type="button"].btn-block {
   padding: 1.25rem;
 }
 
+.card-body i {
+  color: #75E6DA;
+  font-size: 40px;
+  display: block;
+  margin-bottom: 25px;
+}
+
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -5167,6 +5174,10 @@ input[type="button"].btn-block {
 
 .card-deck .card {
   margin-bottom: 15px;
+}
+
+.service-card {
+  min-height: 270px;
 }
 
 @media (min-width: 576px) {
@@ -10761,7 +10772,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #ff214f !important;
+  color: #75E6DA !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10769,7 +10780,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #05445E !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -11095,13 +11106,17 @@ p {
 }
 
 .widget .widget-item img {
+  margin-left: 70px;
+  margin-bottom: 15px !important;
+}
+
+.icon-image {
   color: #75E6DA;
   width: 40px;
   height: 40px;
   display: block;
   position: relative;
-  margin-left: 70px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 767.98px) {
@@ -11915,6 +11930,7 @@ section.has-bg-img.bg-img-2:after {
 section .section-subtitle {
   font-size: calc(17px + (23 - 17) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 300;
+  margin-top: 30px;
   margin-bottom: 5px;
   opacity: .6;
 }
