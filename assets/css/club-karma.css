@@ -11479,6 +11479,21 @@ p {
   width: 25px;
 }
 
+
+#menu {
+  height: 900px;
+}
+
+.drink-menu {
+  width: 40%;
+  margin-right: 10px;
+  float: left;
+}
+
+.drink-menu-2 {
+  margin-bottom: 10px;
+}
+
 .contact-card {
   border-radius: 0.2rem;
   border: 1px solid #eaf0fc;
