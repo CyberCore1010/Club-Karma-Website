@@ -11481,18 +11481,56 @@ p {
 
 
 #menu {
-  height: 900px;
+  height: 1300px;
 }
 
 .drink-menu {
-  width: 40%;
-  margin-right: 10px;
+  width: 49.5%;
   float: left;
 }
 
-.drink-menu-2 {
+.drink-menu .card {
+  flex-direction: row;
   margin-bottom: 10px;
 }
+
+.drink-menu img {
+  width: 30%; 
+  height: 30%; 
+  margin: 10px; 
+  margin-right: 0px;
+}
+
+@media (max-width: 1200px) { 
+  #menu {
+    height: 1200px;
+  }
+}
+
+@media (max-width:992px) { 
+  #menu {
+    height: 2050px;
+  }
+
+  .special-title {
+    font-size: 20px;
+  }
+
+  .drink-menu {
+    width: 100%;
+  }
+} 
+
+@media (max-width:768px) { 
+  #menu {
+    height: 1650px;
+  }
+
+  .special-title {
+    font-size: 12px;
+  }
+} 
+
 
 .contact-card {
   border-radius: 0.2rem;
